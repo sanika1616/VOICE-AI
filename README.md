@@ -1,2 +1,138 @@
-# VOICE-AI
-VOICE AI
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voice AI for Local Business</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #4CAF50;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+
+    .feature {
+      background: #fff;
+      padding: 20px;
+      margin: 10px;
+      flex: 1 1 30%;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+
+    .feature h3 {
+      margin-top: 0;
+      color: #4CAF50;
+    }
+
+    .cta {
+      background: #4CAF50;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+
+    .cta a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 30px;
+      background: #fff;
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .cta a:hover {
+      background: #ddd;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .features {
+        flex-direction: column;
+      }
+
+      .feature {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Voice AI for Local Business</h1>
+    <p>Automate calls, bookings, and customer queries in your local language</p>
+  </header>
+
+  <div class="container">
+    <section class="features">
+      <div class="feature">
+        <h3>24/7 Customer Support</h3>
+        <p>Never miss a customer call, even when you are busy or offline.</p>
+      </div>
+      <div class="feature">
+        <h3>Appointment & Order Management</h3>
+        <p>Automatically take orders, schedule appointments, and send reminders to clients.</p>
+      </div>
+      <div class="feature">
+        <h3>Local Language Support</h3>
+        <p>Communicate with your customers in Marathi, Hindi, or other regional languages.</p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Get Started with Voice AI Today!</h2>
+      <p>Sign up for a free trial or schedule a live demo for your business.</p>
+      <a href="#">Request Demo</a>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Voice AI for Local Business. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
